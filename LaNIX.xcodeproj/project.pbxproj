@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E32AC9CE204EEDCA00EFB4C6 /* LaNIX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LaNIX; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32AC9D1204EEDCA00EFB4C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E32AC9D8204EEDF700EFB4C6 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E32AC9D1204EEDCA00EFB4C6 /* main.cpp */,
+				E32AC9D8204EEDF700EFB4C6 /* header.h */,
 			);
 			path = LaNIX;
 			sourceTree = "<group>";
