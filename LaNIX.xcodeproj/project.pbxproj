@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E32AC9D2204EEDCA00EFB4C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32AC9D1204EEDCA00EFB4C6 /* main.cpp */; };
-		E32AC9E4204EEE4000EFB4C6 /* PQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32AC9D9204EEE4000EFB4C6 /* PQueue.cpp */; };
-		E32AC9E5204EEE4000EFB4C6 /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32AC9DB204EEE4000EFB4C6 /* server.cpp */; };
-		E32AC9E6204EEE4000EFB4C6 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32AC9DC204EEE4000EFB4C6 /* client.cpp */; };
-		E32AC9E7204EEE4000EFB4C6 /* lqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32AC9E1204EEE4000EFB4C6 /* lqueue.cpp */; };
-		E32AC9E8204EEE4000EFB4C6 /* LaQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32AC9E3204EEE4000EFB4C6 /* LaQueue.cpp */; };
+		E32ACA06204EEF4E00EFB4C6 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32AC9FB204EEF4E00EFB4C6 /* client.cpp */; };
+		E32ACA07204EEF4E00EFB4C6 /* PQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32AC9FE204EEF4E00EFB4C6 /* PQueue.cpp */; };
+		E32ACA08204EEF4E00EFB4C6 /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32AC9FF204EEF4E00EFB4C6 /* server.cpp */; };
+		E32ACA09204EEF4E00EFB4C6 /* LaQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32ACA01204EEF4E00EFB4C6 /* LaQueue.cpp */; };
+		E32ACA0A204EEF4E00EFB4C6 /* lqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32ACA02204EEF4E00EFB4C6 /* lqueue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,17 +30,17 @@
 /* Begin PBXFileReference section */
 		E32AC9CE204EEDCA00EFB4C6 /* LaNIX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LaNIX; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32AC9D1204EEDCA00EFB4C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E32AC9D9204EEE4000EFB4C6 /* PQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PQueue.cpp; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/PQueue.cpp"; sourceTree = "<group>"; };
-		E32AC9DA204EEE4000EFB4C6 /* server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = server.h; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/server.h"; sourceTree = "<group>"; };
-		E32AC9DB204EEE4000EFB4C6 /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = server.cpp; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/server.cpp"; sourceTree = "<group>"; };
-		E32AC9DC204EEE4000EFB4C6 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = client.cpp; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/client.cpp"; sourceTree = "<group>"; };
-		E32AC9DD204EEE4000EFB4C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/README.md"; sourceTree = "<group>"; };
-		E32AC9DE204EEE4000EFB4C6 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = client.h; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/client.h"; sourceTree = "<group>"; };
-		E32AC9DF204EEE4000EFB4C6 /* siginfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = siginfo.h; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/siginfo.h"; sourceTree = "<group>"; };
-		E32AC9E0204EEE4000EFB4C6 /* PQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQueue.h; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/PQueue.h"; sourceTree = "<group>"; };
-		E32AC9E1204EEE4000EFB4C6 /* lqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lqueue.cpp; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/lqueue.cpp"; sourceTree = "<group>"; };
-		E32AC9E2204EEE4000EFB4C6 /* lqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lqueue.h; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/lqueue.h"; sourceTree = "<group>"; };
-		E32AC9E3204EEE4000EFB4C6 /* LaQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LaQueue.cpp; path = "../../../Downloads/lanix-ipc-message-queues-jimmybeckett-master/LaQueue.cpp"; sourceTree = "<group>"; };
+		E32AC9FB204EEF4E00EFB4C6 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client.cpp; sourceTree = "<group>"; };
+		E32AC9FC204EEF4E00EFB4C6 /* lqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lqueue.h; sourceTree = "<group>"; };
+		E32AC9FD204EEF4E00EFB4C6 /* PQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQueue.h; sourceTree = "<group>"; };
+		E32AC9FE204EEF4E00EFB4C6 /* PQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PQueue.cpp; sourceTree = "<group>"; };
+		E32AC9FF204EEF4E00EFB4C6 /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
+		E32ACA00204EEF4E00EFB4C6 /* server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = server.h; sourceTree = "<group>"; };
+		E32ACA01204EEF4E00EFB4C6 /* LaQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LaQueue.cpp; sourceTree = "<group>"; };
+		E32ACA02204EEF4E00EFB4C6 /* lqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lqueue.cpp; sourceTree = "<group>"; };
+		E32ACA03204EEF4E00EFB4C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E32ACA04204EEF4E00EFB4C6 /* siginfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = siginfo.h; sourceTree = "<group>"; };
+		E32ACA05204EEF4E00EFB4C6 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,17 +73,17 @@
 		E32AC9D0204EEDCA00EFB4C6 /* LaNIX */ = {
 			isa = PBXGroup;
 			children = (
-				E32AC9DC204EEE4000EFB4C6 /* client.cpp */,
-				E32AC9DE204EEE4000EFB4C6 /* client.h */,
-				E32AC9E3204EEE4000EFB4C6 /* LaQueue.cpp */,
-				E32AC9E1204EEE4000EFB4C6 /* lqueue.cpp */,
-				E32AC9E2204EEE4000EFB4C6 /* lqueue.h */,
-				E32AC9D9204EEE4000EFB4C6 /* PQueue.cpp */,
-				E32AC9E0204EEE4000EFB4C6 /* PQueue.h */,
-				E32AC9DD204EEE4000EFB4C6 /* README.md */,
-				E32AC9DB204EEE4000EFB4C6 /* server.cpp */,
-				E32AC9DA204EEE4000EFB4C6 /* server.h */,
-				E32AC9DF204EEE4000EFB4C6 /* siginfo.h */,
+				E32AC9FB204EEF4E00EFB4C6 /* client.cpp */,
+				E32ACA05204EEF4E00EFB4C6 /* client.h */,
+				E32ACA01204EEF4E00EFB4C6 /* LaQueue.cpp */,
+				E32ACA02204EEF4E00EFB4C6 /* lqueue.cpp */,
+				E32AC9FC204EEF4E00EFB4C6 /* lqueue.h */,
+				E32AC9FE204EEF4E00EFB4C6 /* PQueue.cpp */,
+				E32AC9FD204EEF4E00EFB4C6 /* PQueue.h */,
+				E32ACA03204EEF4E00EFB4C6 /* README.md */,
+				E32AC9FF204EEF4E00EFB4C6 /* server.cpp */,
+				E32ACA00204EEF4E00EFB4C6 /* server.h */,
+				E32ACA04204EEF4E00EFB4C6 /* siginfo.h */,
 				E32AC9D1204EEDCA00EFB4C6 /* main.cpp */,
 			);
 			path = LaNIX;
@@ -146,12 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E32AC9E5204EEE4000EFB4C6 /* server.cpp in Sources */,
-				E32AC9E4204EEE4000EFB4C6 /* PQueue.cpp in Sources */,
-				E32AC9E8204EEE4000EFB4C6 /* LaQueue.cpp in Sources */,
-				E32AC9E6204EEE4000EFB4C6 /* client.cpp in Sources */,
+				E32ACA09204EEF4E00EFB4C6 /* LaQueue.cpp in Sources */,
+				E32ACA06204EEF4E00EFB4C6 /* client.cpp in Sources */,
+				E32ACA0A204EEF4E00EFB4C6 /* lqueue.cpp in Sources */,
+				E32ACA07204EEF4E00EFB4C6 /* PQueue.cpp in Sources */,
+				E32ACA08204EEF4E00EFB4C6 /* server.cpp in Sources */,
 				E32AC9D2204EEDCA00EFB4C6 /* main.cpp in Sources */,
-				E32AC9E7204EEE4000EFB4C6 /* lqueue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
